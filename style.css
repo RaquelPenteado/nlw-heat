@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&family=Roboto:wght@400;700&display=swap');
+*{
+    margin: 0;
+}
+html,body{
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+}
+body{
+    --black: hsl(240,6%,13%);
+    --gray: hsl(240,9%,89%);
+    display: grid;
+    place-items: center;
+    -webkit-font-somoothing: antialiased;
+}
+main{
+    background: url('/images/Mobile.png');
+    width: 375px;
+    height: 812px;
+}
+.content{
+    max-width: 250px;
+    margin-left: auto ;
+    margin-right: auto;
+    text-align: center;
+    color: var(--gray);
+}
+.avatar{
+    width: 10rem;
+    margin: 11.5rem auto 0;
+    position: relative;
+}
+.avatar span{
+    position: absolute;
+    top: -15px;
+    z-index: 1;
+}
+.avatar > img{
+    width: 10rem;
+    height: 11.5rem;
+    object-fit: cover;
+    clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+}
+h1{
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    font-weight: 700;
+}
+a{
+    text-decoration: none;
+    margin-top: 0.25rem;
+    color: var(--gray);
+    display: flex;
+    gap: 0.75rem;
+    justify-content: center;
+}
+p{
+    margin-top: 2rem;
+}
+ul{
+    margin-top: 4rem;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+}
+.display{
+    display: none;
+}
+@media screen and (min-width: 1320px){
+    body{
+        background-color: #121214;
+        background-image: url(/images/background-desk.png);
+        background-size: cover;
+        background-repeat: no-repeat
+    }
+    main{
+        background: none;
+    }
+    .display{
+        display: initial;
+    }
+    .content{
+        top: 0;
+        position: absolute;
+    }
+    img.background{
+        position: relative;
+        height: 100%;
+    }
+    .avatar img:nth-child(2){
+        width: 160px;
+        height: 184px;
+    }
+    .avatar{
+        margin: 13.3rem 6.7rem 0;
+    }
+    .content  {
+        max-width: 370px;
+    }
+    ul{
+        margin-top: 3rem;
+    }
+   
+}
