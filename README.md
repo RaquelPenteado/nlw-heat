@@ -18,7 +18,6 @@ Está é uma solução trazendo uma responsividade da missão Origin.
 
 
 
-#### Alguns prints mostrando a responsividade e uma parte do layout.
 
 ![imagem Desktop](./images/screenshotDesk.png)
 
