@@ -38,8 +38,6 @@ Está é uma solução trazendo uma responsividade da missão Origin.
 - Semantic HTML5 markup
 - CSS custom properties
 - Mobile-first workflow
-- JS
-
 
 ## Author
 
