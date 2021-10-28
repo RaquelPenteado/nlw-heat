@@ -68,7 +68,7 @@ ul{
 .display{
     display: none;
 }
-@media screen and (min-width: 1320px){
+@media  (min-width: 1440px){
     body{
         background-color: #121214;
         background-image: url(/images/background-desk.png);
