@@ -68,7 +68,7 @@ ul{
 .display{
     display: none;
 }
-@media  (min-width: 1440px){
+@media  (max-width: 1440px){
     body{
         background-color: #121214;
         background-image: url(/images/background-desk.png);
@@ -80,6 +80,9 @@ ul{
     }
     .display{
         display: initial;
+    }
+    p{
+        padding: 1rem;
     }
     .content{
         top: 0;
@@ -100,7 +103,7 @@ ul{
         max-width: 370px;
     }
     ul{
-        margin-top: 3rem;
+        margin-top: 1rem;
     }
    
 }
